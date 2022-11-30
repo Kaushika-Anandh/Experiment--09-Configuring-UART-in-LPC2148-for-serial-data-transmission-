@@ -1,6 +1,9 @@
 Exp: 09
+
+Date: 04.11.2022
 # Experiment--09-Configuring-UART-in-LPC2148-for-serial-data-transmission-
 Name :	Kaushika A
+
 Roll no : 212221230048 
 ## Configuring UART in LPC2148 for serial data transmission 
 
