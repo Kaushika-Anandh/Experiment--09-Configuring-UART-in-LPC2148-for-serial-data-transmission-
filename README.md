@@ -1,14 +1,14 @@
+Exp: 09
 # Experiment--09-Configuring-UART-in-LPC2148-for-serial-data-transmission-
-
 Name :	Kaushika A
-
 Roll no : 212221230048 
-### Configuring UART in LPC2148 for serial data transmission 
+## Configuring UART in LPC2148 for serial data transmission 
 
-### Aim: 
+## Aim: 
 To configure internal UART for transferring serial data and display it on the Virtual terminal  
-Components required: Proteus ISIS professional suite, Kiel μ vision 5 Development environment 
-### Theory: 
+## Components required: 
+Proteus ISIS professional suite, Kiel μ vision 5 Development environment 
+## Theory: 
 	The UART Protocol uses only two wires (or pins in a device like microcontroller) to transmit the data. In that, one is for transmitting the data and the pin is called TX pin in the device. The other pin is used to receive the data and is called RX pin.
 As UART is a serial communication, the data is transmitted in a series of packets. Usually, a packet consists of 4 parts: a start bit, the actual data, a parity bit and stop bits. The following image shows a typical structure of the data packet in UART.
 ![image](https://user-images.githubusercontent.com/36288975/203727146-383ce4b4-677b-44c3-bb13-a9e203950760.png)
@@ -44,7 +44,7 @@ UART0 Line Control Register (U0LCR): The Line Control Register is used to set th
 
 ## Figure -02 UART interface virtual terminal
 
-### Kiel - Program 
+## Kiel - Program 
 
 ```
 #include <LPC213x.H> // LPC21xx definitions */
@@ -71,11 +71,12 @@ uart0_putc(a);
 }
 }
 ```
-### Output screen shots :
+## Output screen shots :
 ![ss1](https://user-images.githubusercontent.com/94164580/204102398-964ffe52-1a8a-4408-bad2-4c47a0754610.png)
+
 ![ss2](https://user-images.githubusercontent.com/94164580/204102399-cd1668b0-243c-49b1-8d0c-8ab6aec85a27.png)
 
-### Result :
+## Result :
 UART is programmed for transmitting serial data on virtual terminal  
 
 
